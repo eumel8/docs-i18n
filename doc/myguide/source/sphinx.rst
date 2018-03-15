@@ -1,7 +1,7 @@
 Sphinx
 ======
 
-Sphinx, the Python Documentaion Generator, provides `Internationalization <http://www.sphinx-doc.org/en/stable/intl.html>`__
+Sphinx, the Python Documentation Generator, provides `Internationalization <http://www.sphinx-doc.org/en/stable/intl.html>`__
 . The workflow is described :ref:`there <sphinx:intl>`.
 
 btw: documentation reference can be build with :ref:`intersphinx <sphinx:examples>`
