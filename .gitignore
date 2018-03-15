@@ -1,0 +1,5 @@
+*.pot
+*.mo
+.doctree
+doc/myguide/build
+.zanata-cache

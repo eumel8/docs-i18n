@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<config xmlns="http://zanata.org/namespace/config/">
+  <url>https://zanata.lxd/</url>
+  <project>myrepo</project>
+  <project-version>master</project-version>
+  <project-type>gettext</project-type>
+  <src-dir>.</src-dir>
+  <trans-dir>.</trans-dir>
+  <rules>
+    <rule pattern="**/*.pot">{path}/{locale_with_underscore}/LC_MESSAGES/{filename}.po</rule>
+  </rules>
+</config>
+

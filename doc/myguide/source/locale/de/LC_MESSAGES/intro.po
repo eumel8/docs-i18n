@@ -1,0 +1,38 @@
+# Frank Kloeker <eumel@arcor.de>, 2018. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: Translate the world\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-14 20:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-03-14 05:49+0000\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../intro.rst:2
+msgid "Translate the world"
+msgstr "Übersetze die Welt!"
+
+#: ../intro.rst:4
+msgid ""
+"or: How to build your own infrastructure for multi-language documentation."
+msgstr "ODER: doch?"
+
+#: ../intro.rst:7
+msgid ""
+"Imagine there are about 194 countries on the world, most of them with one or "
+"more then one language. And countless dialects, like Saxon. How you want to "
+"reach all your customer if your products or services are only described in "
+"ONE language?"
+msgstr ""
+
+#: ../intro.rst:12
+msgid ""
+"Here is a solution described as :ref:`sphinx <sphinx:examples>` how to reach "
+"a multi-language documentation service."
+msgstr ""

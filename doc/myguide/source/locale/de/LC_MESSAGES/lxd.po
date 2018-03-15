@@ -1,0 +1,30 @@
+# Frank Kloeker <eumel@arcor.de>, 2018. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: Translate the world\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-14 20:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-03-14 08:32+0000\n"
+"Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../lxd.rst:2
+msgid "LXD Container"
+msgstr "LXD Kontainer"
+
+#: ../lxd.rst:4
+msgid ""
+"To build our own translation platform, we simple use `LXD Container <https://"
+"www.ubuntu.com/containers/lxd>__`. If your LXD environment is initialized, "
+"just do it::"
+msgstr ""
+
+#: ../lxd.rst:10
+msgid "Of course, any other Ubuntu system can be used."
+msgstr ""
