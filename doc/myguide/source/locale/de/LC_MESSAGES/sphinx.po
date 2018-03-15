@@ -3,11 +3,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Translate the world\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-14 20:31+0000\n"
+"POT-Creation-Date: 2018-03-15 18:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-03-15 06:26+0000\n"
+"PO-Revision-Date: 2018-03-15 06:51+0000\n"
 "Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -20,10 +20,13 @@ msgstr "Sphinx"
 
 #: ../sphinx.rst:4
 msgid ""
-"Sphinx, the Python Documentaion Generator, provides `Internationalization "
-"<http://www.sphinx-doc.org/en/stable/intl.html>__` . The workflow is "
+"Sphinx, the Python Documentation Generator, provides `Internationalization "
+"<http://www.sphinx-doc.org/en/stable/intl.html>`__ . The workflow is "
 "described :ref:`there <sphinx:intl>`."
 msgstr ""
+"Sphinx, der Python Dokumentations Generator, stellt `Internationalisierung "
+"<http://www.sphinx-doc.org/en/stable/intl.html>`__  zur Verfügung. Der "
+"Ablauf ist :ref:`hier <sphinx:intl>` beschrieben."
 
 #: ../sphinx.rst:7
 msgid ""
@@ -37,22 +40,64 @@ msgstr ""
 msgid "Install requirements::"
 msgstr "Installationsvoraussetzungen::"
 
-#: ../sphinx.rst:23
-msgid "sphinx-intl update -p build -l de -l ja"
-msgstr "sphinx-intl update -p build -l de -l ja"
+#: ../sphinx.rst:16
+msgid "To initial a new documentation project use::"
+msgstr "Um ein neues Dokumentationsprojekt zu initialisieren::"
 
-#: ../sphinx.rst:19
+#: ../sphinx.rst:20
 msgid ""
-"549  sphinx-build -b gettext doc/myguide/source/ doc/myguide/source/locale/ "
-"551  /opt/zanata-cli-4.3.3/bin/zanata-cli -e push  --disable-ssl-cert 552  /"
-"opt/zanata-cli-4.3.3/bin/zanata-cli -e pull -l de  --disable-ssl-cert 555  /"
-"opt/zanata-cli-4.3.3/bin/zanata-cli -e push --push-type trans --disable-ssl-"
-"cert 556  sphinx-build -b html doc/myguide/source/ doc/myguide/build/html/ -"
-"D language='de'"
+"To interact to Zanata server with the client a project configuration file is "
+"required::"
 msgstr ""
-"549  sphinx-build -b gettext doc/myguide/source/ doc/myguide/source/locale/ "
-"551  /opt/zanata-cli-4.3.3/bin/zanata-cli -e push  --disable-ssl-cert 552  /"
-"opt/zanata-cli-4.3.3/bin/zanata-cli -e pull -l de  --disable-ssl-cert 555  /"
-"opt/zanata-cli-4.3.3/bin/zanata-cli -e push --push-type trans --disable-ssl-"
-"cert 556  sphinx-build -b html doc/myguide/source/ doc/myguide/build/html/ -"
-"D language='de'"
+"Um mit dem Zanata Server zu sprechen, brauch der Client eine Projekt-"
+"Konfigurationsdatei::"
+
+#: ../sphinx.rst:36
+msgid "url must match with url name in zanata.ini"
+msgstr "Die URL muss mit dem URL Namen in der zanata.ini übereinstimmen::"
+
+#: ../sphinx.rst:38
+msgid "Build gettext files for Zanata::"
+msgstr "Gettext Dateien bauen für Zanata::"
+
+#: ../sphinx.rst:42
+msgid "Push pot files to Zanata::"
+msgstr "Pot Dateien zu Zanata schicken::"
+
+#: ../sphinx.rst:46
+msgid ""
+"Normaly self-signed certificate will used in private environment like this. "
+"The option --disable-ssl-cert will force the client to connect."
+msgstr ""
+"Normalerweise wird ein selbst-signiertes Zertifikat im privaten Umfeld wie "
+"diesem benutzt. Die Option --disable-ssl-cert bestimmt den Client, sich zu "
+"verbinden."
+
+#: ../sphinx.rst:49
+msgid ""
+"Now the translation files are on the server and translatable in the "
+"configured languages. If this done you can download it again::"
+msgstr ""
+"Jetzt sind die Übersetzungsdateien auf dem Server und in den jeweils "
+"konfigurierten Sprachen verfügbar. Wenn das fertig ist, können sie wieder "
+"heruntergeladen werden::"
+
+#: ../sphinx.rst:54
+msgid ""
+"Use language option -l de for German files, without that all language files "
+"will be download."
+msgstr ""
+"Benutze -l de für deutsche Übersetzungsdateien, ohne dem werden alle "
+"Sprachdateien heruntergeladen."
+
+#: ../sphinx.rst:57
+msgid ""
+"Optional: If you modified the language files locally, you can push them to "
+"the server::"
+msgstr ""
+"Optional: Wenn Du lokal Sprachdateien geändert hast, kannst Du diese zum "
+"Server hochladen::"
+
+#: ../sphinx.rst:62
+msgid "At the and, build and publish the docs::"
+msgstr "Und dann baue und veröffentliche die Dokumente::"
