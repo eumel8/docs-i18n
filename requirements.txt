@@ -1,4 +1,2 @@
 sphinx
 pbr
-sphinx-intl
-gettext
