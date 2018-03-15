@@ -1,0 +1,104 @@
+# Frank Kloeker <eumel@arcor.de>, 2018. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: Translate the world\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-14 20:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-03-15 06:33+0000\n"
+"Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../zanata.rst:2
+msgid "Zanata"
+msgstr "Zanata"
+
+#: ../zanata.rst:4
+msgid ""
+"`Zanata <https://zanata.org>__` is a web-based translation platform for "
+"translators, content creators and developers to manage localisation projects."
+" Installation is divided in server and client."
+msgstr ""
+"`Zanata <https://zanata.org>__` ist eine web-basierte Übersetzungsplattform "
+"für Übersetzer, Contentersteller und Entwickler zur Verwaltung eines "
+"Lokalisationsprojekts. Die Installation unterscheidet sich in Server und "
+"Client."
+
+#: ../zanata.rst:9
+msgid "Server"
+msgstr "Server"
+
+#: ../zanata.rst:11
+msgid ""
+"Zanata requires Java, Apache, Wildfly, MySQL, and an e-mail service. For "
+"easy installation we use Puppet, specially `puppet-zanata <https://github."
+"com/openstack-infra/puppet-zanata>__` All installation steps are done by "
+"**root**"
+msgstr ""
+"Zanata braucht Java, Apache, Wildfly, MySQL und ein E-mail Service. Für eine "
+"einfache Installation benutzen wir Puppet, speziell `puppet-zanata <https://"
+"github.com/openstack-infra/puppet-zanata>__` Alle Installationsschritte "
+"werden als **root** durchgeführt."
+
+#: ../zanata.rst:16
+msgid "Install deb packages::"
+msgstr "Installation Debian Pakete::"
+
+#: ../zanata.rst:22
+msgid "Clone Git repositories::"
+msgstr "Git Repository klonen::"
+
+#: ../zanata.rst:37
+msgid "Create MySQL client file::"
+msgstr "MySQL Client Datei erstellen::"
+
+#: ../zanata.rst:46
+msgid "Create Puppet manifest::"
+msgstr "Puppet Manifest erstellen::"
+
+#: ../zanata.rst:123
+msgid "Execute the manifest::"
+msgstr "Manifest ausführen::"
+
+#: ../zanata.rst:127
+msgid ""
+"Check on the web browser if Zanata server is running. Depends on the "
+"`filesystem <https://docs.jboss.org/author/display/WFLY10/AIO+-"
+"+NIO+for+messaging+journal>__` , it's required to configure JBoss::"
+msgstr ""
+"Überprüfe mit dem Webbrowser, ob der Zanata Server läuft. Abhängig vom  "
+"`Dateisystem <https://docs.jboss.org/author/display/WFLY10/AIO+-"
+"+NIO+for+messaging+journal>__` , muss JBoss umkonfiguriert werden::"
+
+#: ../zanata.rst:138
+msgid ""
+"With Puppet the configured admin user is **admin**. That means, if you start "
+"the register process, go through the OpenID login process, you should use "
+"the username **admin** to get admin privileges for your account. After login "
+"generate your API key in User Settings->Client in your profile. The API key "
+"is for authorization on the server::"
+msgstr ""
+"Durch Puppet wird der Benutzer **admin** konfiguriert. Das bedeutet, dass Du "
+"bei der Registrierung Deines Accounts durch den OpenID Loginprozess diesen "
+"Benutzernamen wählen solltest, um Adminrechte für den Account zu bekommen. "
+"Nach dem Login erstellen wir einen API Schlüssel in Benutzereinstellungen-"
+">Client in Deinem Profil. Der API Schlüssel ist für die Authorisierung am "
+"Server::"
+
+#: ../zanata.rst:153
+msgid "Client"
+msgstr "Client"
+
+#: ../zanata.rst:155
+msgid "Thank goodness Zanata client installation is much easier::"
+msgstr ""
+"Gottseidank ist die Installation des Zanata Client wesentlich einfacher::"
+
+#: ../zanata.rst:161
+msgid "That's it :-)"
+msgstr "Das wars :-)"

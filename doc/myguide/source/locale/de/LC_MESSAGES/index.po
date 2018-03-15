@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-03-14 05:47+0000\n"
+"PO-Revision-Date: 2018-03-15 06:20+0000\n"
 "Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -20,20 +20,20 @@ msgstr "Willkommen zur Translate the world's Dokumentation!"
 
 #: ../index.rst:9
 msgid "Contents:"
-msgstr ""
+msgstr "Inhalte:"
 
 #: ../index.rst:19
 msgid "Indices and tables"
-msgstr ""
+msgstr "Indizes und Tabellen"
 
 #: ../index.rst:21
 msgid ":ref:`genindex`"
-msgstr ""
+msgstr ":ref:`genindex`"
 
 #: ../index.rst:22
 msgid ":ref:`modindex`"
-msgstr ""
+msgstr ":ref:`modindex`"
 
 #: ../index.rst:23
 msgid ":ref:`search`"
-msgstr ""
+msgstr ":ref:`search`"

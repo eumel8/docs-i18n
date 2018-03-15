@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-03-14 08:32+0000\n"
+"PO-Revision-Date: 2018-03-15 06:24+0000\n"
 "Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: ../lxd.rst:2
 msgid "LXD Container"
-msgstr "LXD Kontainer"
+msgstr "LXD Container"
 
 #: ../lxd.rst:4
 msgid ""
@@ -24,7 +24,10 @@ msgid ""
 "www.ubuntu.com/containers/lxd>__`. If your LXD environment is initialized, "
 "just do it::"
 msgstr ""
+"Um unsere eigene Übersetzungsplattform zu bauen, benutzen wir einfach `LXD "
+"Container <https://www.ubuntu.com/containers/lxd>__`. Wenn Deine LXD "
+"Umgebung initialisiert ist, mach einfach::"
 
 #: ../lxd.rst:10
 msgid "Of course, any other Ubuntu system can be used."
-msgstr ""
+msgstr "Du kannst natürlich auch jedes andere Ubuntu System benutzen."
