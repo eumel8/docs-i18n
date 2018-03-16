@@ -2,6 +2,7 @@
 *.mo
 .doctree
 .tox/
+.eggs/
 doc/myguide/source/locale/.doctrees/
 docs_i18n.egg-info/
 doc/myguide/build
