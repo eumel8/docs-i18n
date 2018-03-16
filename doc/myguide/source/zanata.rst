@@ -1,7 +1,7 @@
 Zanata
 ======
 
-`Zanata <https://zanata.org>`__ is a web-based translation platform for
+`Zanata <http://zanata.org>`__ is a web-based translation platform for
 translators, content creators and developers to manage localisation
 projects. Installation is divided in server and client.
 
@@ -147,6 +147,7 @@ The API key is for authorization on the server::
     zanata.lxd.url=https://zanata.lxd/
     zanata.lxd.username=admin
     zanata.lxd.key=cc8492e637f9f2c161d89bb3fb776783
+    EOF
 
 Now you may setup a new project in Zanata and add languages to the
 project. Of course, you should join a language team.
