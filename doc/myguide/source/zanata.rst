@@ -150,8 +150,21 @@ The API key is for authorization on the server::
 
 Now you may setup a new project in Zanata and add languages to the
 project. Of course, you should join a language team.
+Here are some screenshots from what do you can expect:
+
+.. image:: /_assets/zanata-i18n1.png
+
+.. image:: /_assets/zanata-i18n2.png
+
+.. image:: /_assets/zanata-i18n3.png
+
+.. image:: /_assets/zanata-i18n4.png
+
+.. image:: /_assets/zanata-i18n5.png
+
 More information for Zanata usage are available on
 `OpenStack Contributor Guide <https://docs.openstack.org/contributors/common/i18n.html>`__
+and `Zanata Docs <http://docs.zanata.org/>`__
 
 
 Client
