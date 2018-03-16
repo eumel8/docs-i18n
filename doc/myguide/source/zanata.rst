@@ -152,13 +152,23 @@ Now you may setup a new project in Zanata and add languages to the
 project. Of course, you should join a language team.
 Here are some screenshots from what do you can expect:
 
+New project:
+
 .. image:: /_assets/zanata-i18n1.png
+
+New version:
 
 .. image:: /_assets/zanata-i18n2.png
 
+Configure gettext:
+
 .. image:: /_assets/zanata-i18n3.png
 
+Configure languages:
+
 .. image:: /_assets/zanata-i18n4.png
+
+Add languages to project:
 
 .. image:: /_assets/zanata-i18n5.png
 
