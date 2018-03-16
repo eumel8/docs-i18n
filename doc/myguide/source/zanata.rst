@@ -175,8 +175,7 @@ Add languages to project:
 
 More information for Zanata usage are available on
 `OpenStack Contributor Guide <https://docs.openstack.org/contributors/common/i18n.html>`__
-and `Zanata Docs <http://docs.zanata.org/>`__
-
+and `Zanata Docs <http://docs.zanata.org/>`__.
 
 Client
 ------

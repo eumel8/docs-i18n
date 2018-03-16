@@ -3,11 +3,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Translate the world\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-15 18:41+0000\n"
+"POT-Creation-Date: 2018-03-16 19:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-03-16 06:18+0000\n"
+"PO-Revision-Date: 2018-03-16 07:10+0000\n"
 "Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -20,14 +20,14 @@ msgstr "Zanata"
 
 #: ../zanata.rst:4
 msgid ""
-"`Zanata <https://zanata.org>`__ is a web-based translation platform for "
+"`Zanata <http://zanata.org>`__ is a web-based translation platform for "
 "translators, content creators and developers to manage localisation projects."
 " Installation is divided in server and client."
 msgstr ""
-"`Zanata <https://zanata.org>`__ ist eine web-basierte Übersetzungsplattform "
-"für Übersetzer, Content-Ersteller und Entwickler zur Verwaltung eines "
-"Lokalisations-Projekts. Die Installation unterteilt sich in Server und "
-"Client."
+"Der Dienst `Zanata <http://zanata.org>`__ ist eine web-basierte "
+"Übersetzungsplattform für Übersetzer, Content-Ersteller und Entwickler zur "
+"Verwaltung eines Lokalisations-Projekts. Die Installation unterteilt sich in "
+"Server und Client."
 
 #: ../zanata.rst:9
 msgid "Server"
@@ -91,28 +91,55 @@ msgstr ""
 ">Client in Deinem Profil. Der API Schlüssel ist für die Authorisierung am "
 "Server::"
 
-#: ../zanata.rst:151
+#: ../zanata.rst:152
 msgid ""
 "Now you may setup a new project in Zanata and add languages to the project. "
-"Of course, you should join a language team. More information for Zanata "
-"usage are available on `OpenStack Contributor Guide <https://docs.openstack."
-"org/contributors/common/i18n.html>`__"
+"Of course, you should join a language team. Here are some screenshots from "
+"what do you can expect:"
 msgstr ""
-"Jetzt kannst Du in Zanata ein neues Projekt einrichten und Sprachen zum "
+"Nun kannst Du in Zanata ein neues Projekt einrichten und Sprachen zum "
 "Projekt hinzufügen. Natürlich solltest Du auch einem Sprachteam beitreten. "
-"Mehr Informationen zur Benutzung von Zanata sind im `OpenStack Contributor "
-"Guide <https://docs.openstack.org/contributors/common/i18n.html>`__ "
-"verfügbar"
+"Hier sind einige Screenshots, von dem was Dich erwartet:"
 
-#: ../zanata.rst:158
+#: ../zanata.rst:156
+msgid "New project:"
+msgstr "Neues Projekt:"
+
+#: ../zanata.rst:160
+msgid "New version:"
+msgstr "Neue Version:"
+
+#: ../zanata.rst:164
+msgid "Configure gettext:"
+msgstr "Gettext konfigurieren:"
+
+#: ../zanata.rst:168
+msgid "Configure languages:"
+msgstr "Sprachen konfigurieren:"
+
+#: ../zanata.rst:172
+msgid "Add languages to project:"
+msgstr "Neue Sprachen zum Projekt hinzufügen:"
+
+#: ../zanata.rst:176
+msgid ""
+"More information for Zanata usage are available on `OpenStack Contributor "
+"Guide <https://docs.openstack.org/contributors/common/i18n.html>`__ and "
+"`Zanata Docs <http://docs.zanata.org/>`__"
+msgstr ""
+"Mehr Informationen zur Benutzung von Zanata sind im `OpenStack Contributor "
+"Guide <https://docs.openstack.org/contributors/common/i18n.html>`__  und "
+"`Zanata Docs <http://docs.zanata.org/>`__verfügbar."
+
+#: ../zanata.rst:182
 msgid "Client"
 msgstr "Client"
 
-#: ../zanata.rst:160
+#: ../zanata.rst:184
 msgid "Thank goodness Zanata client installation is much easier::"
 msgstr ""
 "Gottseidank ist die Installation des Zanata Client wesentlich einfacher::"
 
-#: ../zanata.rst:166
+#: ../zanata.rst:190
 msgid "That's it :-)"
 msgstr "Das wars :-)"
