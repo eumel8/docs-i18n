@@ -81,6 +81,28 @@ pygments_style = 'sphinx'
 #
 html_theme = 'classic'
 
+html_theme_options = {
+    'footerbgcolor': '#ffffff',
+    'footertextcolor': '#03a6d7',
+    'sidebarbgcolor': '#03a6d7',
+    'sidebarbtncolor': '#ededed',
+    'sidebartextcolor': '#eeeeee',
+    'sidebarlinkcolor': '#3c3c3c',
+    'relbarbgcolor': '#d0d0d0',
+    'relbartextcolor': '#5c5c5c',
+    'relbarlinkcolor': '#3c3c3c',
+    'bgcolor': '#ffffff',
+    'textcolor': '#5c5c5c',
+    'linkcolor': '#222222',
+    'visitedlinkcolor': '#2c2c2c',
+#    'headbgcolor':
+#    'headtextcolor':
+#    'headlinkcolor':
+    'codebgcolor': '#ededed',
+    'codetextcolor': '#505050',
+}
+
+
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
