@@ -1,9 +1,25 @@
+.. _zanata:
+
 Zanata
 ======
 
+.. image:: /_assets/world.png
+
+Translate the world
+-------------------
+
+or: How to build your own infrastructure for multi-language
+documentation.
+
+Imagine there are about 194 countries on the world, most of them with
+one or more then one language. And countless dialects, like Saxon.
+How you want to reach all your customer if
+your products or services are only described in ONE language?
+
 `Zanata <http://zanata.org>`__ is a web-based translation platform for
 translators, content creators and developers to manage localisation
-projects. Installation is divided in server and client.
+projects. Zanata is Open Source. The Installation is divided in server
+and client.
 
 Server
 ------

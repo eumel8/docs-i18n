@@ -1,3 +1,5 @@
+.. _sphinx:
+
 Sphinx
 ======
 
@@ -9,16 +11,25 @@ Check available options::
 
     python -m sphinx.ext.intersphinx 'http://www.sphinx-doc.org/en/master/objects.inv'
 
+Installation
+------------
+
 Install requirements::
 
     pip install -r requirements.txt
+
+Init
+----
 
 To initial a new documentation project use::
 
     sphinx-quickstart
 
+Zanata Project File
+-------------------
+
 To interact to Zanata server with the client a project configuration
-file is required::
+file named zanata.xml is required::
 
     <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
     <config xmlns="http://zanata.org/namespace/config/">
@@ -35,9 +46,15 @@ file is required::
 
 url must match with url name in zanata.ini
 
+Gettext
+-------
+
 Build gettext files for Zanata::
 
     sphinx-build -b gettext doc/myguide/source/ doc/myguide/source/locale/
+
+Push to server
+--------------
 
 Push pot files to Zanata::
 
@@ -49,6 +66,11 @@ this. The option --disable-ssl-cert will force the client to connect.
 Now the translation files are on the server and translatable in the
 configured languages. If this done you can download it again::
 
+Pull from server
+----------------
+
+Pull po files from Zanata::
+
     zanata-cli -e pull -l de  --disable-ssl-cert
 
 Use language option -l de for German files, without that all
@@ -58,6 +80,9 @@ Optional: If you modified the language files locally, you can push
 them to the server::
 
     zanata-cli -e push --push-type trans --disable-ssl-cert
+
+Build and publish
+-----------------
 
 At the and, build and publish the docs::
 

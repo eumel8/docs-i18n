@@ -16,10 +16,28 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+import sys, os
+#sys.path.append(os.path.abspath('_ext'))
+#extensions = ['rstjinja']
+
+
+
+#html_context = {
+#}
+
+# import sys
+# import os
+# import ablog
+
+# sys.path.append(os.getcwd())  # noqa
+# sys.path.insert(0, os.path.abspath('_ext'))
+
+# from core import rstjinja
+
 
 # -- Project information -----------------------------------------------------
 
-project = u'Translate the world'
+project = u'Docs as Code'
 copyright = u'2018, Frank Kloeker'
 author = u'Frank Kloeker'
 
@@ -52,8 +70,11 @@ templates_path = ['_templates']
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 #
+source_parsers = {
+   '.md': 'recommonmark.parser.CommonMarkParser',
+}
 # source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
+source_suffix = ['.rst', '.md' ]
 
 # The master toctree document.
 master_doc = 'index'
@@ -128,7 +149,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Translatetheworlddoc'
+htmlhelp_basename = 'Docs as codedoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -155,7 +176,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Translatetheworld.tex', u'Translate the world Documentation',
+    (master_doc, 'Docs as code.tex', u'Docs as Code Documentation',
      u'Frank Kloeker', 'manual'),
 ]
 
@@ -165,7 +186,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'translatetheworld', u'Translate the world Documentation',
+    (master_doc, 'docsascode', u'Docs as Code Documentation',
      [author], 1)
 ]
 
@@ -176,8 +197,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Translatetheworld', u'Translate the world Documentation',
-     author, 'Translatetheworld', 'One line description of project.',
+    (master_doc, 'Docs as code', u'Docs as Code Documentation',
+     author, 'Docs as code', 'One line description of project.',
      'Miscellaneous'),
 ]
 
@@ -213,7 +234,6 @@ epub_exclude_files = ['search.html']
 intersphinx_mapping = {
     'python': ('http://docs.python.org/', None),
     'sphinx': ('http://www.sphinx-doc.org/en/master/', None)
-#    'sphinx': ('http://sphinx.pocoo.org/', None)
 } 
 
 locale_dirs = ['locale/']   # path is example but recommended.
