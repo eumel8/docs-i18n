@@ -1,0 +1,110 @@
+# Frank Kloeker <eumel@arcor.de>, 2018. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: Docs as Code\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-20 22:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-03-20 10:42+0000\n"
+"Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../start.rst:2
+msgid "Getting Started"
+msgstr "Anfangen"
+
+#: ../start.rst:4
+msgid "Common workflow of documentation is:"
+msgstr "Üblicher Arbeitsablauf bei Dokumentationen ist:"
+
+#: ../start.rst:8
+msgid "Our workflow will be:"
+msgstr "Unser Arbeitsablauf wird sein:"
+
+#: ../start.rst:13
+msgid "Text Editor"
+msgstr "Texteditoren"
+
+#: ../start.rst:15
+msgid "There ara variuous tools for different platforms with RST support"
+msgstr ""
+"Es sind verschiedene Werkzeuge für verschiedene Plattformen verfügbar, die "
+"RST unterstützen"
+
+#: ../start.rst:17
+msgid "`Online <http://rst.ninjs.org/>`__"
+msgstr "`Online <http://rst.ninjs.org/>`__"
+
+#: ../start.rst:18
+msgid ""
+"`vim extension <https://www.vim.org/scripts/script.php?script_id=973>`__"
+msgstr ""
+"`vim extension <https://www.vim.org/scripts/script.php?script_id=973>`__"
+
+#: ../start.rst:19
+msgid "`Notepad++ <https://notepad-plus-plus.org/>`__"
+msgstr "`Notepad++ <https://notepad-plus-plus.org/>`__"
+
+#: ../start.rst:20
+msgid "`Visual Studio Code <https://code.visualstudio.com/>`__"
+msgstr "`Visual Studio Code <https://code.visualstudio.com/>`__"
+
+#: ../start.rst:23
+msgid "Build Tools"
+msgstr "Bauwerkzeuge"
+
+#: ../start.rst:25
+msgid ""
+"It's all described in :ref:`sphinx`. Sphinx package includes all tools to "
+"check and build the documents."
+msgstr ""
+"Ist alles beschrieben in :ref:`sphinx`. Das Sphinx Paket beinhaltet alle "
+"Werkzeuge zum Überprüfen und bauen der Dokumente."
+
+#: ../start.rst:29
+msgid "Translation Platform"
+msgstr "Übersetzungsplattform"
+
+#: ../start.rst:31
+msgid ""
+"In the chapter :ref:`zanata` it's described, how Zanata can help us to "
+"translate text strings in differenz languages."
+msgstr ""
+"Im Kapitel :ref:`zanata` ist beschrieben, wie Zanata uns helfen kann, "
+"Textstrings in verschiedene Sprachen zu übersetzen."
+
+#: ../start.rst:35
+msgid "Publishing"
+msgstr "Veröfffentlichen"
+
+#: ../start.rst:37
+msgid ""
+"Compiled HTML pages can served on our own webserver (see :ref:"
+"`lxdcontainer`) Or we use the pretty online service :ref:`Readthedocs`)"
+msgstr ""
+"Kompilierte HTML Seiten können durch unseren eigenen Webserver ausgeliefert "
+"werden (siehe :ref:`lxdcontainer`) Oder wir benutzen den grossartigen "
+"Onlinedienst :ref:`Readthedocs`)"
+
+#: ../start.rst:43
+msgid "LXD Container"
+msgstr "LXD Container"
+
+#: ../start.rst:45
+msgid ""
+"To build our own sphinx build and translation platform, we simple use `LXD "
+"Container <https://www.ubuntu.com/containers/lxd>`__. If your LXD "
+"environment is initialized, just do it::"
+msgstr ""
+"Um unsere eigene Sphinx-Bau- und  Übersetzungsplattform zu bauen, benutzen "
+"wir einfach `LXD Container <https://www.ubuntu.com/containers/lxd>__`. Wenn "
+"Deine LXD Umgebung initialisiert ist, mach einfach::"
+
+#: ../start.rst:52
+msgid "Of course, any other Ubuntu system can be used."
+msgstr "Du kannst natürlich auch jedes andere Ubuntu System benutzen."

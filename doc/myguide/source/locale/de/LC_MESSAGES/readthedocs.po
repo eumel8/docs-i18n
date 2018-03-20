@@ -1,0 +1,74 @@
+# Frank Kloeker <eumel@arcor.de>, 2018. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: Docs as Code\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-20 22:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-03-20 10:33+0000\n"
+"Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../readthedocs.rst:4
+msgid "Readthedocs"
+msgstr "Readthedocs"
+
+#: ../readthedocs.rst:7
+msgid "Introduction"
+msgstr "Vorstellung"
+
+#: ../readthedocs.rst:9
+msgid ""
+"`Readthedocs <https://readthedocs.org/>`__ is an online service to host "
+"technical documentation, especially in Sphinx format. If your documentation "
+"code lives on `GitHub <https://github.com/eumel8/docs-i18n/tree/master/doc/"
+"myguide/source>`__ a `webhook <https://developer.github.com/webhooks/>`__ "
+"can configured to trigger Readthedocs to fetch and build Sphinx "
+"documentation."
+msgstr ""
+"`Readthedocs <https://readthedocs.org/>`__ ist ein Onlinedienst zum "
+"Vorhalten technischer Dokumentation, besonders im Sphinx Format. Wenn Dein "
+"Dokumentations-Code auf `GitHub <https://github.com/eumel8/docs-i18n/tree/"
+"master/doc/myguide/source>`__  lebt, ein `Webhook <https://developer.github."
+"com/webhooks/>`__ kann zum Auslösen eines Events bei  Readthedocs "
+"konfiguriert werden, um Dokumentation abzuholen und zu bauen."
+
+#: ../readthedocs.rst:16
+msgid "Workflow"
+msgstr "Ablauf"
+
+#: ../readthedocs.rst:21
+msgid "Use cases"
+msgstr "Anwendungsfälle"
+
+#: ../readthedocs.rst:23
+msgid ""
+"Readthedocs provides different output formats like HTML, ePub, and PDF in "
+"different languages and different versions (branches)"
+msgstr ""
+"Readthedocs stellt verschiedene Ausgabeformate zur Verfügung wie HTML, ePub "
+"und PDF in verschiedenen Sprachen und verschiedenen Versionen (Zweige)"
+
+#: ../readthedocs.rst:26
+msgid ""
+"You can configure your own sub-domain like `http://docs-i18n.readthedocs.io/ "
+"<http://docs-i18n.readthedocs.io/>`__ or use your own name space and "
+"configure aliases or forwards."
+msgstr ""
+"Du kannst Deine eigene Subdomain konfigurieren wie  `http://docs-i18n."
+"readthedocs.io/ <http://docs-i18n.readthedocs.io/>`__ oder Du kannst Deinen "
+"eigenen Namensraum benutzen und einen Alias oder Weiterleitung konfigurieren."
+""
+
+#: ../readthedocs.rst:30
+msgid "Example"
+msgstr "Beispiel"
+
+#: ../readthedocs.rst:32
+msgid "`Ansible OTC <http://ansible-otc.readthedocs.io>`__"
+msgstr "`Ansible OTC <http://ansible-otc.readthedocs.io>`__"
