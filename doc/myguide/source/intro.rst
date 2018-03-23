@@ -15,7 +15,7 @@ Output
 For the output there are different :ref:`Builders <sphinx:builders>`.
 You can choose between single- or multi-page HTML, TXT, PDF, or ePub.
 There are also other output formats like JSON, XML, or man-pages.
-Zhe builder will also make syntax- and link checks for the documents.
+The builder will also make syntax- and link checks for the documents.
 
 Input
 -----
