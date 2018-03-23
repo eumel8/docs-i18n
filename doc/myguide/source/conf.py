@@ -42,9 +42,9 @@ copyright = u'2018, Frank Kloeker'
 author = u'Frank Kloeker'
 
 # The short X.Y version
-version = u''
+#version = u''
 # The full version, including alpha/beta/rc tags
-release = u'1'
+#release = u'1.1'
 
 
 # -- General configuration ---------------------------------------------------
