@@ -21,7 +21,7 @@ Use cases
 ---------
 
 Readthedocs provides different output formats like HTML, ePub, and PDF
-in different languages and different versions (branches)
+in different languages and different versions (branches).
 
 You can configure your own sub-domain like `http://docs-i18n.readthedocs.io/ <http://docs-i18n.readthedocs.io/>`__
 or use your own name space and configure aliases or forwards.

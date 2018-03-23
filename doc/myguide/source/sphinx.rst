@@ -84,7 +84,7 @@ them to the server::
 Build and publish
 -----------------
 
-At the and, build and publish the docs::
+At the end, build and publish the docs::
 
     sphinx-build -b html doc/myguide/source/ doc/myguide/build/html/en
     sphinx-build -b html doc/myguide/source/ doc/myguide/build/html/de -D language='de'

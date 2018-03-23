@@ -17,7 +17,7 @@ How you want to reach all your customer if
 your products or services are only described in ONE language?
 
 `Zanata <http://zanata.org>`__ is a web-based translation platform for
-translators, content creators and developers to manage localisation
+translators, content creators and developers to manage localization
 projects. Zanata is Open Source. The Installation is divided in server
 and client.
 
