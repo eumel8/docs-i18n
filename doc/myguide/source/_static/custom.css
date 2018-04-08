@@ -1,0 +1,18 @@
+article {  
+  background-image: url("dac2.png");
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: left top;
+  color: rgb(224, 224, 224) !important;
+}
+
+article h1 {
+  padding-top: 10px;
+  color: red;
+}
+
+article h2 {
+  padding-top: 25px;
+  color: rgb(215,31,56);
+}
+

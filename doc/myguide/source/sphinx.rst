@@ -1,5 +1,6 @@
 .. _sphinx:
 
+======
 Sphinx
 ======
 
@@ -12,21 +13,21 @@ Check available options::
     python -m sphinx.ext.intersphinx 'http://www.sphinx-doc.org/en/master/objects.inv'
 
 Installation
-------------
+============
 
 Install requirements::
 
     pip install -r requirements.txt
 
 Init
-----
+====
 
 To initial a new documentation project use::
 
     sphinx-quickstart
 
 Zanata Project File
--------------------
+===================
 
 To interact to Zanata server with the client a project configuration
 file named zanata.xml is required::
@@ -47,14 +48,14 @@ file named zanata.xml is required::
 url must match with url name in zanata.ini
 
 Gettext
--------
+=======
 
 Build gettext files for Zanata::
 
     sphinx-build -b gettext doc/myguide/source/ doc/myguide/source/locale/
 
 Push to server
---------------
+==============
 
 Push pot files to Zanata::
 
@@ -64,10 +65,10 @@ Normaly self-signed certificate will used in private environment like
 this. The option --disable-ssl-cert will force the client to connect.
 
 Now the translation files are on the server and translatable in the
-configured languages. If this done you can download it again::
+configured languages. If this done you can download it again.
 
 Pull from server
-----------------
+================
 
 Pull po files from Zanata::
 
@@ -82,10 +83,14 @@ them to the server::
     zanata-cli -e push --push-type trans --disable-ssl-cert
 
 Build and publish
------------------
+=================
 
 At the end, build and publish the docs::
 
     sphinx-build -b html doc/myguide/source/ doc/myguide/build/html/en
     sphinx-build -b html doc/myguide/source/ doc/myguide/build/html/de -D language='de'
 
+Or build and publish sldies within hieroglyph module::
+
+    sphinx-build -b slides doc/myguide/source/ doc/myguide/build/slides/en
+    sphinx-build -b slides doc/myguide/source/ doc/myguide/build/slides/de -D language='de'

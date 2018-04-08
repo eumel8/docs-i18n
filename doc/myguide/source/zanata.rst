@@ -1,12 +1,13 @@
 .. _zanata:
 
+======
 Zanata
 ======
 
 .. image:: /_assets/world.png
 
 Translate the world
--------------------
+===================
 
 or: How to build your own infrastructure for multi-language
 documentation.
@@ -22,7 +23,7 @@ projects. Zanata is Open Source. The Installation is divided in server
 and client.
 
 Server
-------
+======
 
 Zanata requires Java, Apache, Wildfly, MySQL, and an e-mail service.
 For easy installation we use Puppet, specially `puppet-zanata <https://github.com/openstack-infra/puppet-zanata>`__
@@ -190,11 +191,12 @@ Add languages to project:
 .. image:: /_assets/zanata-i18n5.png
 
 More information for Zanata usage are available on
-`OpenStack Contributor Guide <https://docs.openstack.org/contributors/common/i18n.html>`__
-and `Zanata Docs <http://docs.zanata.org/>`__.
+ `OpenStack Contributor Guide <https://docs.openstack.org/contributors/common/i18n.html>`__
+
+ `Zanata Docs <http://docs.zanata.org/>`__ .
 
 Client
-------
+======
 
 Thank goodness Zanata client installation is much easier::
 

@@ -1,8 +1,3 @@
-.. Docs as Code documentation master file, created by
-   sphinx-quickstart on Tue Mar 13 19:11:13 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Welcome to Docs as Code
 =======================
 
@@ -13,17 +8,48 @@ Your Open Source software should also has a manual. And should do it
 something better :-)
 
 
+Introduction
+============
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
-   intro
-   start
-   zanata
-   sphinx
-   readthedocs
+   intro.rst
+
+Start
+=====
+
+.. toctree::
+   :maxdepth: 2
+
+   start.rst
+
+Zanata
+======
+
+.. toctree::
+   :maxdepth: 2
+
+   zanata.rst
+
+Sphinx
+======
+
+.. toctree::
+   :maxdepth: 2
+
+   sphinx.rst
+
+Readthedocs
+===========
+
+.. toctree::
+   :maxdepth: 2
+
+   readthedocs.rst
 
 Indices and tables
 ==================
 
 * :ref:`search`
+

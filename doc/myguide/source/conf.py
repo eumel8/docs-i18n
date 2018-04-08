@@ -154,6 +154,25 @@ htmlhelp_basename = 'Docs as codedoc'
 
 # -- Options for LaTeX output ------------------------------------------------
 
+# latex_engine = 'xelatex'
+# latex_elements = {
+#     'fontpkg': r'''
+# \setmainfont{DejaVu Serif}
+# \setsansfont{DejaVu Sans}
+# \setmonofont{DejaVu Sans Mono}
+# ''',
+#     'preamble': r'''
+# \usepackage[titles]{tocloft}
+# \cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
+# \setlength{\cftchapnumwidth}{0.75cm}
+# \setlength{\cftsecindent}{\cftchapnumwidth}
+# \setlength{\cftsecnumwidth}{1.25cm}
+# ''',
+#     'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
+#     'printindex': r'\footnotesize\raggedright\printindex',
+# }
+# latex_show_urls = 'footnote'
+
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
@@ -175,10 +194,10 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-    (master_doc, 'Docs as code.tex', u'Docs as Code Documentation',
-     u'Frank Kloeker', 'manual'),
-]
+#latex_documents = [
+#    (master_doc, 'Docs as code.tex', u'Docs as Code Documentation',
+#     u'Frank Kloeker', 'manual'),
+#]
 
 
 # -- Options for manual page output ------------------------------------------
@@ -238,3 +257,14 @@ intersphinx_mapping = {
 
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
+
+# -- Hieroglyph Slide Configuration ------------
+extensions += ['hieroglyph']
+slide_theme = 'single-level'
+slide_levels = 3
+slide_numbers = True
+slide_link_to_html = True
+slide_link_html_to_slides = True
+slide_theme_options = {
+    'custom_css': 'custom.css',
+}
