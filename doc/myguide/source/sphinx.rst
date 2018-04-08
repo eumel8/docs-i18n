@@ -90,7 +90,7 @@ At the end, build and publish the docs::
     sphinx-build -b html doc/myguide/source/ doc/myguide/build/html/en
     sphinx-build -b html doc/myguide/source/ doc/myguide/build/html/de -D language='de'
 
-Or build and publish sldies within hieroglyph module::
+Or build and publish slides within hieroglyph module::
 
     sphinx-build -b slides doc/myguide/source/ doc/myguide/build/slides/en
     sphinx-build -b slides doc/myguide/source/ doc/myguide/build/slides/de -D language='de'

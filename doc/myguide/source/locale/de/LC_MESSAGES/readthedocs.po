@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Docs as Code\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-23 09:28+0000\n"
+"POT-Creation-Date: 2018-04-08 09:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,15 +14,15 @@ msgstr ""
 "X-Generator: Zanata 4.3.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../readthedocs.rst:4
+#: ../readthedocs.rst:5
 msgid "Readthedocs"
 msgstr "Readthedocs"
 
-#: ../readthedocs.rst:7
+#: ../readthedocs.rst:8
 msgid "Introduction"
 msgstr "Vorstellung"
 
-#: ../readthedocs.rst:9
+#: ../readthedocs.rst:10
 msgid ""
 "`Readthedocs <https://readthedocs.org/>`__ is an online service to host "
 "technical documentation, especially in Sphinx format. If your documentation "
@@ -38,15 +38,15 @@ msgstr ""
 "com/webhooks/>`__ kann zum Auslösen eines Events bei  Readthedocs "
 "konfiguriert werden, um Dokumentation abzuholen und zu bauen."
 
-#: ../readthedocs.rst:16
+#: ../readthedocs.rst:17
 msgid "Workflow"
 msgstr "Ablauf"
 
-#: ../readthedocs.rst:21
+#: ../readthedocs.rst:22
 msgid "Use cases"
 msgstr "Anwendungsfälle"
 
-#: ../readthedocs.rst:23
+#: ../readthedocs.rst:24
 msgid ""
 "Readthedocs provides different output formats like HTML, ePub, and PDF in "
 "different languages and different versions (branches)."
@@ -54,7 +54,7 @@ msgstr ""
 "Readthedocs stellt verschiedene Ausgabeformate wie HTML, ePub und PDF in "
 "verschiedenen Sprachen und Versionen (Zweige) zur Verfügung."
 
-#: ../readthedocs.rst:26
+#: ../readthedocs.rst:27
 msgid ""
 "You can configure your own sub-domain like `http://docs-i18n.readthedocs.io/ "
 "<http://docs-i18n.readthedocs.io/>`__ or use your own name space and "
@@ -65,10 +65,10 @@ msgstr ""
 "eigenen Namensraum benutzen und einen Alias oder Weiterleitung konfigurieren."
 ""
 
-#: ../readthedocs.rst:30
+#: ../readthedocs.rst:31
 msgid "Example"
 msgstr "Beispiel"
 
-#: ../readthedocs.rst:32
+#: ../readthedocs.rst:33
 msgid "`Ansible OTC <http://ansible-otc.readthedocs.io>`__"
 msgstr "`Ansible OTC <http://ansible-otc.readthedocs.io>`__"

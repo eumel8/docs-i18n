@@ -3,33 +3,33 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Docs as Code\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-23 09:28+0000\n"
+"POT-Creation-Date: 2018-04-08 09:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-03-23 09:57+0000\n"
+"PO-Revision-Date: 2018-04-08 09:10+0000\n"
 "Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
 "Language-Team: German\n"
 "Language: de\n"
 "X-Generator: Zanata 4.3.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../zanata.rst:4
+#: ../zanata.rst:5
 msgid "Zanata"
 msgstr "Zanata"
 
-#: ../zanata.rst:9
+#: ../zanata.rst:10
 msgid "Translate the world"
 msgstr "Übersetze die Welt"
 
-#: ../zanata.rst:11
+#: ../zanata.rst:12
 msgid ""
 "or: How to build your own infrastructure for multi-language documentation."
 msgstr ""
 "oder: Wie wird eine Infrastruktur für eine mehrsprachige Dokumentation "
 "aufgebaut."
 
-#: ../zanata.rst:14
+#: ../zanata.rst:15
 msgid ""
 "Imagine there are about 194 countries on the world, most of them with one or "
 "more then one language. And countless dialects, like Saxon. How you want to "
@@ -41,7 +41,7 @@ msgstr ""
 "willst Du all Deine Kunden erreichen, wenn Deine Produkte oder Dienste nur "
 "in EINER Sprache beschrieben sind?"
 
-#: ../zanata.rst:19
+#: ../zanata.rst:20
 msgid ""
 "`Zanata <http://zanata.org>`__ is a web-based translation platform for "
 "translators, content creators and developers to manage localization projects."
@@ -52,11 +52,11 @@ msgstr ""
 "Lokalisations-Projekten.. Zanata ist Open Source. Die Installation "
 "unterscheidet sich in Server und Client."
 
-#: ../zanata.rst:25
+#: ../zanata.rst:26
 msgid "Server"
 msgstr "Server"
 
-#: ../zanata.rst:27
+#: ../zanata.rst:28
 msgid ""
 "Zanata requires Java, Apache, Wildfly, MySQL, and an e-mail service. For "
 "easy installation we use Puppet, specially `puppet-zanata <https://github."
@@ -68,27 +68,27 @@ msgstr ""
 "<https://github.com/openstack-infra/puppet-zanata>`__ Alle "
 "Installationsschritte werden als **root** ausgeführt"
 
-#: ../zanata.rst:31
+#: ../zanata.rst:32
 msgid "Install deb packages::"
 msgstr "Installation Debian Pakete::"
 
-#: ../zanata.rst:37
+#: ../zanata.rst:38
 msgid "Clone Git repositories::"
 msgstr "Git Repository klonen::"
 
-#: ../zanata.rst:52
+#: ../zanata.rst:53
 msgid "Create MySQL client file::"
 msgstr "MySQL Client Datei erstellen::"
 
-#: ../zanata.rst:61
+#: ../zanata.rst:62
 msgid "Create Puppet manifest::"
 msgstr "Puppet Manifest erstellen::"
 
-#: ../zanata.rst:138
+#: ../zanata.rst:139
 msgid "Execute the manifest::"
 msgstr "Manifest ausführen::"
 
-#: ../zanata.rst:142
+#: ../zanata.rst:143
 msgid ""
 "Check on the web browser if Zanata server is running. Depends on the "
 "`filesystem <https://docs.jboss.org/author/display/WFLY10/AIO+-"
@@ -99,7 +99,7 @@ msgstr ""
 "+NIO+for+messaging+journal>`__ , ist es erforderlich, JBoss "
 "umzukonfigurieren::"
 
-#: ../zanata.rst:153
+#: ../zanata.rst:154
 msgid ""
 "With Puppet the configured admin user is **admin**. That means, if you start "
 "the register process, go through the OpenID login process, you should use "
@@ -114,7 +114,7 @@ msgstr ""
 ">Client in Deinem Profil. Der API Schlüssel ist für die Authorisierung am "
 "Server::"
 
-#: ../zanata.rst:168
+#: ../zanata.rst:169
 msgid ""
 "Now you may setup a new project in Zanata and add languages to the project. "
 "Of course, you should join a language team. Here are some screenshots from "
@@ -124,45 +124,51 @@ msgstr ""
 "Projekt hinzufügen. Natürlich solltest Du auch einem Sprachteam beitreten. "
 "Hier sind einige Screenshots, von dem was Dich erwartet:"
 
-#: ../zanata.rst:172
+#: ../zanata.rst:173
 msgid "New project:"
 msgstr "Neues Projekt:"
 
-#: ../zanata.rst:176
+#: ../zanata.rst:177
 msgid "New version:"
 msgstr "Neue Version:"
 
-#: ../zanata.rst:180
+#: ../zanata.rst:181
 msgid "Configure gettext:"
 msgstr "Gettext konfigurieren:"
 
-#: ../zanata.rst:184
+#: ../zanata.rst:185
 msgid "Configure languages:"
 msgstr "Sprachen konfigurieren:"
 
-#: ../zanata.rst:188
+#: ../zanata.rst:189
 msgid "Add languages to project:"
 msgstr "Neue Sprachen zum Projekt hinzufügen:"
 
-#: ../zanata.rst:192
-msgid ""
-"More information for Zanata usage are available on `OpenStack Contributor "
-"Guide <https://docs.openstack.org/contributors/common/i18n.html>`__ and "
-"`Zanata Docs <http://docs.zanata.org/>`__."
-msgstr ""
-"Mehr Informationen zur Benutzung von Zanata sind im `OpenStack Contributor "
-"Guide <https://docs.openstack.org/contributors/common/i18n.html>`__  und "
-"`Zanata Docs <http://docs.zanata.org/>`__verfügbar."
+#: ../zanata.rst:196
+msgid "More information for Zanata usage are available on"
+msgstr "Mehr Informationen zu Zanata sind verfügbar"
 
-#: ../zanata.rst:197
+#: ../zanata.rst:194
+msgid ""
+"`OpenStack Contributor Guide <https://docs.openstack.org/contributors/common/"
+"i18n.html>`__"
+msgstr ""
+"`OpenStack Contributor Guide <https://docs.openstack.org/contributors/common/"
+"i18n.html>`__"
+
+#: ../zanata.rst:196
+msgid "`Zanata Docs <http://docs.zanata.org/>`__ ."
+msgstr "`Zanata Docs <http://docs.zanata.org/>`__ ."
+
+#: ../zanata.rst:199
 msgid "Client"
 msgstr "Client"
 
-#: ../zanata.rst:199
+#: ../zanata.rst:201
 msgid "Thank goodness Zanata client installation is much easier::"
 msgstr ""
 "Gottseidank ist die Installation des Zanata Client wesentlich einfacher::"
 
-#: ../zanata.rst:205
+#: ../zanata.rst:207
 msgid "That's it :-)"
 msgstr "Das wars :-)"

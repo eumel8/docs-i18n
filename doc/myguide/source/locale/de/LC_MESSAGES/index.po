@@ -3,22 +3,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Docs as Code\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-23 09:28+0000\n"
+"POT-Creation-Date: 2018-04-08 09:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-03-23 09:52+0000\n"
+"PO-Revision-Date: 2018-04-08 09:05+0000\n"
 "Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
 "Language-Team: German\n"
 "Language: de\n"
 "X-Generator: Zanata 4.3.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../index.rst:7
+#: ../index.rst:2
 msgid "Welcome to Docs as Code"
 msgstr "Willkommen zu Docs als Code"
 
-#: ../index.rst:9
+#: ../index.rst:4
 msgid ""
 "If you buy a car or a construction set for a wardrobe, the user manual or "
 "the building instruction will be shipped with the product. Also software, "
@@ -31,14 +31,30 @@ msgstr ""
 "ein Handbuch. Deine Open Source Software sollte auch ein Handbuch haben. Und "
 "es sollte etwas besser sein :-)"
 
-#: ../index.rst:16
-msgid "Contents:"
-msgstr "Inhalte:"
+#: ../index.rst:12
+msgid "Introduction"
+msgstr "Vorstellung"
 
-#: ../index.rst:27
+#: ../index.rst:20
+msgid "Start"
+msgstr "Start"
+
+#: ../index.rst:28
+msgid "Zanata"
+msgstr "Zanata"
+
+#: ../index.rst:36
+msgid "Sphinx"
+msgstr "Sphinx"
+
+#: ../index.rst:44
+msgid "Readthedocs"
+msgstr "Readthedocs"
+
+#: ../index.rst:52
 msgid "Indices and tables"
 msgstr "Indizes und Tabellen"
 
-#: ../index.rst:29
+#: ../index.rst:54
 msgid ":ref:`search`"
 msgstr ":ref:`search`"

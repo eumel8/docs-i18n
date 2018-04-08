@@ -3,22 +3,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Docs as Code\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-23 09:28+0000\n"
+"POT-Creation-Date: 2018-04-08 09:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-03-23 09:55+0000\n"
+"PO-Revision-Date: 2018-04-08 09:07+0000\n"
 "Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
 "Language-Team: German\n"
 "Language: de\n"
 "X-Generator: Zanata 4.3.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../intro.rst:2
+#: ../intro.rst:3
 msgid "Intro"
 msgstr "Einleitung"
 
-#: ../intro.rst:4
+#: ../intro.rst:5
 msgid ""
 "Here is a solution described as :ref:`Sphinx <sphinx:examples>` how to reach "
 "a multi-language documentation service."
@@ -26,11 +26,11 @@ msgstr ""
 "Hier ist eine Lösung beschrieben in :ref:`sphinx <sphinx:examples>` wie eine "
 "mehrsprachiger Dokumentationsdienst zu erreichen ist."
 
-#: ../intro.rst:8
+#: ../intro.rst:9
 msgid "Why Sphinx?"
 msgstr "Warum Sphinx?"
 
-#: ../intro.rst:9
+#: ../intro.rst:10
 msgid ""
 "Sphinx is used to document :ref:`Python <python:functions>`. Documentation "
 "strings from Python modules are fetched and Sphinx will generate "
@@ -40,34 +40,37 @@ msgstr ""
 "Dokumentationstrings von Python-Modulen werden abgerufen und Sphinx baut "
 "daraus Dokumentation."
 
-#: ../intro.rst:14
+#: ../intro.rst:15
 msgid "Output"
 msgstr "Ausgabe"
 
-#: ../intro.rst:15
+#: ../intro.rst:16
 msgid ""
 "For the output there are different :ref:`Builders <sphinx:builders>`. You "
 "can choose between single- or multi-page HTML, TXT, PDF, or ePub. There are "
-"also other output formats like JSON, XML, or man-pages. The builder will "
-"also make syntax- and link checks for the documents."
+"also other output formats like JSON, XML, or man-pages. With `hieroglyph "
+"<http://docs.hieroglyph.io>`__ you can also generate slides. The builder "
+"will also make syntax- and link checks for the documents."
 msgstr ""
-"Zur Ausgabe gibt es verschiedene :ref:`Builder <sphinx:builders>`.  Du "
-"kannst wählen zwischen einseitiges oder mehrseitiges HTML, TXT, PDF oder "
-"ePub. Es gibt auch noch andere Ausgabeformate wie JSON, XML oder man-pages. "
-"Der Builder macht auch einen Syntax- und Link-Check für die Dokumente."
+"Zur Ausgabe stehen verschiedene :ref:`Builder <sphinx:builders>` zur "
+"Verfügung. Du kannst wählen zwischen single- oder multi-page HTML, TXT, PDF "
+"oder ePub. Es gibt noch andere Ausgabeformate wie JSON, XML oder man-pages. "
+"Mit `hieroglyph <http://docs.hieroglyph.io>`__ kannst Du auch Folien "
+"generieren. Der Builder wird auch einen Syntaxcheck machen und Links in den "
+"Dokumenten überprüfen."
 
-#: ../intro.rst:21
+#: ../intro.rst:24
 msgid "Input"
 msgstr "Eingabe"
 
-#: ../intro.rst:22
+#: ../intro.rst:25
 msgid ""
 "The documents are written in :ref:`restructuredtext <sphinx:rst-primer>`"
 msgstr ""
 "Die Dokumente sind geschrieben in  :ref:`restructuredtext <sphinx:rst-"
 "primer>`"
 
-#: ../intro.rst:24
+#: ../intro.rst:27
 msgid ""
 "The syntax is pretty easy, i.e. :ref:`print tables <sphinx:rst-tables>`. Or "
 "print code:"
@@ -75,19 +78,19 @@ msgstr ""
 "Die Syntax ist recht einfach,  z.B.. :ref:`print tables <sphinx:rst-tables>`."
 " Oder print code:"
 
-#: ../intro.rst:31
+#: ../intro.rst:34
 msgid "Or  :download:`download the document <intro.rst>`."
 msgstr "Oder  :download:`Lade das Dokument herunter <intro.rst>`."
 
-#: ../intro.rst:33
+#: ../intro.rst:36
 msgid ":ref:`Markdown <sphinx:markdown>` is also supported as source."
 msgstr ":ref:`Markdown <sphinx:markdown>` wird auch als Quelle unterstützt."
 
-#: ../intro.rst:36
+#: ../intro.rst:39
 msgid "Templating"
 msgstr "Templating"
 
-#: ../intro.rst:37
+#: ../intro.rst:40
 msgid ""
 "Other things in Sphinx are :ref:`templating <sphinx:templating>`. Default "
 "template engine is `Jinja <http://jinja.pocoo.org/>`__. You can use "
@@ -98,11 +101,11 @@ msgstr ""
 "Variablen in Loops benutzen, um mit Daten aus json Dateien zu arbeiten und "
 "solche Sachen."
 
-#: ../intro.rst:42
+#: ../intro.rst:45
 msgid "Themes"
 msgstr "Themes"
 
-#: ../intro.rst:43
+#: ../intro.rst:46
 msgid ""
 "Last but not least to highlight are :ref:`Themes <sphinx:builtin-themes>`. "
 "There are some themes included in Sphinx and the standard theme has multiple "
@@ -117,38 +120,38 @@ msgstr ""
 "Pakete für Sphinx Theme gibts <https://pypi.python.org/pypi?%3Aaction="
 "search&term=Sphinx+Theme&submit=search>`__"
 
-#: ../intro.rst:49
+#: ../intro.rst:52
 msgid "Search Engine"
 msgstr "Suchmaschine"
 
-#: ../intro.rst:50
+#: ../intro.rst:53
 msgid ":ref:`A search engine <sphinx:search>` is included."
 msgstr ":ref:`Eine Suchmaschine <sphinx:search>` ist mit dabei."
 
-#: ../intro.rst:53
+#: ../intro.rst:56
 msgid "Not enough?"
 msgstr "Nicht genug?"
 
-#: ../intro.rst:54
+#: ../intro.rst:57
 msgid "And mark a timestamp without and script language"
 msgstr "Ein Zeitstempel ohne jegliche Script-Sprache"
 
-#: ../intro.rst:56
+#: ../intro.rst:59
 msgid "|today|"
 msgstr "|today|"
 
-#: ../intro.rst:59
+#: ../intro.rst:62
 msgid "And who is using Sphinx?"
 msgstr "Und wer benutzt Sphinx?"
 
-#: ../intro.rst:61
+#: ../intro.rst:64
 msgid "`Ansible Doc <http://docs.ansible.com/>`__"
 msgstr "`Ansible Doc <http://docs.ansible.com/>`__"
 
-#: ../intro.rst:62
+#: ../intro.rst:65
 msgid "`OpenStack Doc <https://docs.openstack.org>`__"
 msgstr "`OpenStack Doc <https://docs.openstack.org>`__"
 
-#: ../intro.rst:64
+#: ../intro.rst:67
 msgid "others:"
 msgstr "andere:"
