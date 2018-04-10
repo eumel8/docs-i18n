@@ -1,0 +1,59 @@
+# Ian Y. Choi <ianyrchoi@gmail.com>, 2018. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: Docs as Code\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-11 05:21+0900\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-04-10 04:27-0400\n"
+"Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: ../index.rst:2
+msgid "Welcome to Docs as Code"
+msgstr "Docs as Code (문서를 코드처럼)에 오신 것을 환영합니다"
+
+#: ../index.rst:4
+msgid ""
+"If you buy a car or a construction set for a wardrobe, the user manual or "
+"the building instruction will be shipped with the product. Also software, "
+"bought on a CD, has a handout or handbook. Your Open Source software should "
+"also has a manual. And should do it something better :-)"
+msgstr ""
+"자동차 또는 의상실을 위한 시공 세트를 구입하고자 하는 경우, 사용자 설명서 또는 만들기 위한 안내서가 해당 제품에 같이 동봉될 것입니다."
+" 또한 CD로 구입한 것과 같은 소프트웨어에는 유인물 또는 핸드북이 있습니다. 여러분의 오픈 소스 소프트웨어는 매뉴얼이 있어야 합니다. "
+"그리고 좋은 매뉴얼을 가져야 합니다 :-)"
+
+#: ../index.rst:12
+msgid "Introduction"
+msgstr "소개"
+
+#: ../index.rst:20
+msgid "Start"
+msgstr "시작"
+
+#: ../index.rst:28
+msgid "Zanata"
+msgstr "Zanata"
+
+#: ../index.rst:36
+msgid "Sphinx"
+msgstr "Sphinx"
+
+#: ../index.rst:44
+msgid "Readthedocs"
+msgstr "Readthedocs"
+
+#: ../index.rst:52
+msgid "Indices and tables"
+msgstr "인덱스 & 테이블"
+
+#: ../index.rst:54
+msgid ":ref:`search`"
+msgstr ":ref:`search`"
+

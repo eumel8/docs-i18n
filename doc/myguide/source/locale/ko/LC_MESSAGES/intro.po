@@ -1,0 +1,141 @@
+# Ian Y. Choi <ianyrchoi@gmail.com>, 2018. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: Docs as Code\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-11 05:21+0900\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-04-10 04:33-0400\n"
+"Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: ../intro.rst:3
+msgid "Intro"
+msgstr "소개"
+
+#: ../intro.rst:5
+msgid ""
+"Here is a solution described as :ref:`Sphinx <sphinx:examples>` how to reach "
+"a multi-language documentation service."
+msgstr ""
+":ref:`Sphinx <sphinx:examples>` 에 설명되었듯이 어떻게 다국어 문서 서비스에 도달하는지에 대한 해결책이 있습니다."
+""
+
+#: ../intro.rst:9
+msgid "Why Sphinx?"
+msgstr "왜 Sphinx인가?"
+
+#: ../intro.rst:10
+msgid ""
+"Sphinx is used to document :ref:`Python <python:functions>`. Documentation "
+"strings from Python modules are fetched and Sphinx will generate "
+"documentation from that."
+msgstr ""
+"Sphinx는 :ref:`Python <python:functions>` 을 문서화하는데 사용합니다. Python 모듈에서 문서 "
+"문자열들을 가져와서 Sphinx는 문서를 생성합니다."
+
+#: ../intro.rst:15
+msgid "Output"
+msgstr "결과물"
+
+#: ../intro.rst:16
+msgid ""
+"For the output there are different :ref:`Builders <sphinx:builders>`. You "
+"can choose between single- or multi-page HTML, TXT, PDF, or ePub. There are "
+"also other output formats like JSON, XML, or man-pages. With `hieroglyph "
+"<http://docs.hieroglyph.io>`__ you can also generate slides. The builder "
+"will also make syntax- and link checks for the documents."
+msgstr ""
+"결과물로는 서로 다른 :ref:`Builders <sphinx:builders>` 에 따라 달라집니다. 단일 또는 여러 페이지 HTML, "
+"TXT, PDF, 또는 ePub에서 선택할 수 있습니다. JSON, XML, 또는 man 페이지와 같은 다른 출력 포맷 또한 있습니다. "
+"`hieroglyph <http://docs.hieroglyph.io>`__ 를 통해서는 슬라이드를 생성할 수 있습니다. 해당 "
+"builder로는 문서에 대해 또한 문법 및 링크를 검사하도록 만들 수도 있습니다."
+
+#: ../intro.rst:24
+msgid "Input"
+msgstr "입력"
+
+#: ../intro.rst:25
+msgid ""
+"The documents are written in :ref:`restructuredtext <sphinx:rst-primer>`"
+msgstr "문서는 :ref:`restructuredtext <sphinx:rst-primer>` 로 작성합니다"
+
+#: ../intro.rst:27
+msgid ""
+"The syntax is pretty easy, i.e. :ref:`print tables <sphinx:rst-tables>`. Or "
+"print code:"
+msgstr "문법은 매우 쉽습니다: :ref:`print tables <sphinx:rst-tables>`. 또는 코드를 출력합니다:"
+
+#: ../intro.rst:34
+msgid "Or  :download:`download the document <intro.rst>`."
+msgstr "또는 :download:`download the document <intro.rst>`."
+
+#: ../intro.rst:36
+msgid ":ref:`Markdown <sphinx:markdown>` is also supported as source."
+msgstr ":ref:`Markdown <sphinx:markdown>` 또한 입력으로 지원합니다."
+
+#: ../intro.rst:39
+msgid "Templating"
+msgstr "템플릿화"
+
+#: ../intro.rst:40
+msgid ""
+"Other things in Sphinx are :ref:`templating <sphinx:templating>`. Default "
+"template engine is `Jinja <http://jinja.pocoo.org/>`__. You can use "
+"variables in loops to work with data from json files or others."
+msgstr ""
+
+#: ../intro.rst:45
+msgid "Themes"
+msgstr ""
+
+#: ../intro.rst:46
+msgid ""
+"Last but not least to highlight are :ref:`Themes <sphinx:builtin-themes>`. "
+"There are some themes included in Sphinx and the standard theme has multiple "
+"options to configure. But you can also build yuur own theme, or  `look what "
+"Python Packages are available for Sphinx Theme <https://pypi.python.org/"
+"pypi?%3Aaction=search&term=Sphinx+Theme&submit=search>`__"
+msgstr ""
+
+#: ../intro.rst:52
+msgid "Search Engine"
+msgstr ""
+
+#: ../intro.rst:53
+msgid ":ref:`A search engine <sphinx:search>` is included."
+msgstr ""
+
+#: ../intro.rst:56
+msgid "Not enough?"
+msgstr ""
+
+#: ../intro.rst:57
+msgid "And mark a timestamp without and script language"
+msgstr ""
+
+#: ../intro.rst:59
+msgid "|today|"
+msgstr "|today|"
+
+#: ../intro.rst:62
+msgid "And who is using Sphinx?"
+msgstr "그리고 누가 Sphinx를 사용하고 있습니까?"
+
+#: ../intro.rst:64
+msgid "`Ansible Doc <http://docs.ansible.com/>`__"
+msgstr "`Ansible Doc <http://docs.ansible.com/>`__"
+
+#: ../intro.rst:65
+msgid "`OpenStack Doc <https://docs.openstack.org>`__"
+msgstr "`OpenStack Doc <https://docs.openstack.org>`__"
+
+#: ../intro.rst:67
+msgid "others:"
+msgstr "others:"
+
