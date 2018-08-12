@@ -2,4 +2,5 @@
 - project:
     check:
       jobs:
+        - base-test
         - build-sphinx-docs
