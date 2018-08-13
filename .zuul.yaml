@@ -3,4 +3,4 @@
     check:
       jobs:
         - run-test-command
-        - build-sphinx-docs
+#        - build-sphinx-docs
